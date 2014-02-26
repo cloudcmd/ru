@@ -13,6 +13,8 @@ Cloud Commander 0.9.0 [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][
 [NPMURL]:                   http://badge.fury.io/js/cloudcmd
 [BuildStatusURL]:           https://travis-ci.org/coderaiser/cloudcmd  "Build Status"
 [DependencyStatusURL]:      https://gemnasium.com/coderaiser/cloudcmd "Dependency Status"
+[FlattrURL]:                https://flattr.com/submit/auto?user_id=coderaiser&url=github.com/coderaiser/cloudcmd&title=cloudcmd&language=&tags=github&category=software "flattr"
+[LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 [FlattrIMGURL]:             https://img.shields.io/badge/flattr-donate-317BF9.svg
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg
 [NPM_INFO_URL]:             https://npmjs.org/package/cloudcmd "npm"
