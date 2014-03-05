@@ -34,7 +34,7 @@ Cloud Commander 0.9.0 [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][
 
 Преимущества
 ---------------
-- Открытый код.
+- Открытый код (**MIT License**).
 - Две классические панели.
 - Работает под Windows, Linux и Mac OS.
 - Может использоваться локально или удаленно.
@@ -372,10 +372,6 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 - *2012.07.14*, **[v0.1.2](//github.com/cloudcmd/archive/raw/master/cloudcmd-v0.1.2.zip)**
 - *2012.07.11*, **[v0.1.1](//github.com/cloudcmd/archive/raw/master/cloudcmd-v0.1.1.zip)**
 - *2012.07.09*, **[v0.1.0](//github.com/cloudcmd/archive/raw/master/cloudcmd-v0.1.0.zip)**
-
-Лицензия
----------------
-MIT [license](LICENSE "лицензия").
 
 Особая благодарность:
 ---------------
