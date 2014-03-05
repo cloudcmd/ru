@@ -310,6 +310,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 Для расширения функционала файлового менеджера использованы следующие модули:
 
 - [Ace]                     [AceURL]
+- [Minify]                  [MinifyURL]
 - [FancyBox]                [FancyBoxURL]
 - [jQuery-contextMenu]      [jQuery-contextMenuURL]
 - [jq-console]              [jq-consoleURL]
@@ -321,6 +322,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 - [fs-extra]                [fs-extraURL]
 
 [AceURL]:                   http://ace.ajax.org/ "Ace"
+[MinifyURL]:                http://coderaiser.github.io/minify "Minify"
 [FancyBoxURL]:              //github.com/fancyapps/fancyBox "FancyBox"
 [jQuery-contextMenuURL]:    //github.com/medialize/jQuery-contextMenu "jQuery-contextMenu"
 [jq-consoleURL]:            //github.com/replit/jq-console‎ "jq-console"
