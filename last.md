@@ -67,7 +67,7 @@ Cloud Commander 0.9.0 [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][
 | `F5`              | копировать
 | `F6`              | переименовать/переместить
 | `F7`              | новая папка
-| `shift + F7`      | новый файл
+| `Shift + F7`      | новый файл
 | `F8, Delete`      | удалить текущий файл
 | `F9`              | меню
 | `F10`             | настройки
