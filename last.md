@@ -181,23 +181,24 @@ git update-index --no-assume-unchanged json/config.json
 Просто запустите [shell/addtables.sh](http://github.com/coderaiser/cloudcmd/blob/master/shell/addtables.sh) для стандартных опций.
 
 ```sh
-@:/tmp/cloudcmd (dev) $ sudo iptables -t nat -L # look rules before
-@:/tmp/cloudcmd (dev) $ sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000
-@:/tmp/cloudcmd (dev) $ sudo iptables -t nat -A PREROUTING -p tcp --dport 443 -j REDIRECT --to-ports 4430
-@:/tmp/cloudcmd (dev) $ sudo iptables -t nat -L # look reles after
+# iptables -t nat -L # look rules before
+# iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000
+# iptables -t nat -A PREROUTING -p tcp --dport 443 -j REDIRECT --to-ports 4430
+# iptables -t nat -L # look reles after
 ```
-Ви должны увидеть что-то такое ( **8000** и **4430** должно быть в config как **port** и **sslPort** )
 
-    target     prot opt source               destination
-    REDIRECT   tcp  --  anywhere             anywhere             tcp dpt:http redir ports 8000
-    REDIRECT   tcp  --  anywhere             anywhere             tcp dpt:https redir ports 4430
-
+Вы должны увидеть что-то вроде ( **8000** и **4430** должно быть в config как **port** и **sslPort** )
+```
+target     prot opt source               destination
+REDIRECT   tcp  --  anywhere             anywhere             tcp dpt:http redir ports 8000
+REDIRECT   tcp  --  anywhere             anywhere             tcp dpt:https redir ports 4430
+```
 Если захотите всё вернуть, просто очистите правила ( **1** и **2** это номера правил,
 в вашому случае они могут отличаться).
 
 ```sh
-@:/tmp/cloudcmd (dev) $ sudo iptables -t nat -D PREROUTING 1
-@:/tmp/cloudcmd (dev) $ sudo iptables -t nat -D PREROUTING 2
+# iptables -t nat -D PREROUTING 1
+# iptables -t nat -D PREROUTING 2
 ```
 
 ###nginx
