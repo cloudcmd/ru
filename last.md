@@ -14,10 +14,7 @@ Cloud Commander 0.9.0
 [JitSu_LIVE_IMG]:           https://status-ok.cloudcmd.io/host/cloudcmd.jit.su/img/txt.png "JitSu"
 [HEROKU_LIVE_IMG]:          https://status-ok.cloudcmd.io/host/cloudcmd.herokuapp.com/img/txt.png "Heroku"
 
-**Cloud Commander** - облачный файловый менеджер с консолью и редактором. Поможет вам: **создавать**, **редактировать**, **перемещать** и **удалять файлы** и **папки** прямо в вашем любимом браузере с любого компьютера. Файловый менеджер состоит из двух частей: 
-
-- **клиентской** (с приятным простым интерфейсом)
-- **серверной** (разработанной на Node.js)
+**Cloud Commander** - двухпанельный веб файл менеджер с консолью и редактором. Поможет вам управлять сервером и работать с файлами, папками и програмами в браузере на любом компьютере, смартфоне или планшете.
 
 ![Cloud Commander](http://cloudcmd.io/img/logo/cloudcmd.png "Cloud Commander")
 
@@ -25,11 +22,14 @@ Cloud Commander 0.9.0
 ---------------
 - Открытый код (**MIT License**).
 - Две классические панели.
-- Работает под Windows, Linux и Mac OS.
+- Возможность **авторизации**.
+- Клиент работает в веб браузере.
+- Сервер работает под **Windows, Linux и Mac OS**.
 - Может использоваться локально или удаленно.
-- Имеет консоль и редактор.
-- Написан на JavaScript/Node.js.
-- Работает в браузере.
+- Адаптируется под размер экрана.
+- **Редактор** с поддержкой **подсветки синтаксиса** для более чем 110 языков.
+- **Косоль** с поддержкой стандартной командной строки ОС.
+- Написан на **JavaScript/Node.js**.
 
 Установка
 ---------------
@@ -40,6 +40,22 @@ Cloud Commander 0.9.0
 - установить ```cloudcmd``` при помощи npm простой командой.
 
 ![NPM_INFO][NPM_INFO_IMG]
+
+Запуск
+---------------
+Что бы запустить **Cloud Commander** нужна всего одна команда:
+    
+    node cloudcmd
+
+для windows:
+
+    cloudcmd
+
+После чего , Cloud Commander считает информацию с порта з файла настроек [config.json](http://github.com/coderaiser/cloudcmd/blob/master/json/config.json#L17) и запустит сервер
+на этом порту ( **8000**, по умолчанию ), если сменных портов не существует( *cloud9*, *cloudfoundry* и *nodester* ).
+Тогда просто наберите в браузере:
+
+    http://127.0.0.1:8000
 
 Гарячие клавиши
 ---------------
@@ -262,25 +278,6 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 введите:
     
     nohup node cloudcmd
-
-Запуск
----------------
-Что бы запустить **Cloud Commander** нужна всего одна команда:
-    
-    node cloudcmd
-
-для windows:
-
-    cloudcmd
-
-После чего , Cloud Commander считает информацию с порта з файла настроек [config.json](http://github.com/coderaiser/cloudcmd/blob/master/json/config.json#L17) и запустит сервер
-на этом порту ( **8000**, по умолчанию ), если сменных портов не существует( *cloud9*, *cloudfoundry* и *nodester* ).
-Тогда просто наберите в браузере:
-
-    http://127.0.0.1:8000
-или
-
-    http://localhost:8000
 
 Обновление
 ---------------
