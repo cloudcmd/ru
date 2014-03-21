@@ -34,7 +34,7 @@ Cloud Commander 0.9.0
 - Две классические панели.
 - Возможность **авторизации**.
 - Клиент работает в веб браузере.
-- Сервер работает под **Windows, Linux и Mac OS**.
+- Сервер работает под **Windows**, **Linux** и **Mac OS**.
 - Может использоваться локально или удаленно.
 - Адаптируется под размер экрана.
 - **Редактор** с поддержкой **подсветки синтаксиса** для более чем 110 языков.
@@ -61,8 +61,8 @@ Cloud Commander 0.9.0
 
     cloudcmd
 
-После чего , Cloud Commander считает информацию с порта з файла настроек [config.json](http://github.com/coderaiser/cloudcmd/blob/master/json/config.json#L17) и запустит сервер
-на этом порту ( **8000**, по умолчанию ), если сменных портов не существует( *cloud9*, *cloudfoundry* и *nodester* ).
+После чего, Cloud Commander считает информацию с порта з файла настроек `json/config.json` и запустит сервер
+на стандартном порту (`8000`), если сменных портов не существует (`cloud9`, `cloudfoundry` и `nodester`).
 Тогда просто наберите в браузере:
 
     http://127.0.0.1:8000
@@ -156,7 +156,7 @@ Cloud Commander 0.9.0
 
 Настройки
 ---------------
-Все основные настройки, можна осуществлять в config.json.
+Все основные настройки, можна осуществлять в `json/config.json`.
 
 ```js
 {
@@ -377,4 +377,4 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 Особая благодарность:
 ---------------
 - [Polietilena](http://polietilena.github.io/ "Polietilena") за [logo](img/logo/cloudcmd.png "logo") и [favicon](img/favicon/favicon.png "favicon").
-- [TarZak](https://github.com/tarzak) за [Русский](http://ru.cloudcmd.io "Русский") и [Украинский](http://ua.cloudcmd.io "Украинский") переводы.
+- [TarZak](https://github.com/tarzak) за русский и украинский переводы.
