@@ -171,6 +171,7 @@ Cloud Commander 0.9.0
     "appCache"          : false,            /* кешировать файлы для оффлайн использования                      */
     "analytics"         : true,             /* поддержка google analytics                                      */
     "diff"              : false,            /* при сохранении - отсылает патч, а не весь файл                  */
+    "zip"               : false,            /* zip текст перед отсылкой / unzip перед сохранением              */
     "notifications"     : false,            /* показувати сповіщення, коли вкладка не активна                  */
     "localStorage"      : true,             /* кеширование содержимого папки                                   */
     "minify"            : true,             /* минификация js,css,html и изображений                           */
