@@ -205,7 +205,7 @@ git update-index --no-assume-unchanged json/config.json
 Существует несколько простых и быстрых вариантов. Один из них - перенаправление портов через iptables.
 
 ###Iptables
-Просто запустите [shell/addtables.sh](http://github.com/coderaiser/cloudcmd/blob/master/shell/addtables.sh) для стандартных опций.
+Просто запустите `shell/addtables.sh` для стандартных опций.
 
 ```sh
 iptables -t nat -L # look rules before
