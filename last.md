@@ -208,10 +208,10 @@ git update-index --no-assume-unchanged json/config.json
 Просто запустите [shell/addtables.sh](http://github.com/coderaiser/cloudcmd/blob/master/shell/addtables.sh) для стандартных опций.
 
 ```sh
-# iptables -t nat -L # look rules before
-# iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000
-# iptables -t nat -A PREROUTING -p tcp --dport 443 -j REDIRECT --to-ports 4430
-# iptables -t nat -L # look reles after
+iptables -t nat -L # look rules before
+iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000
+iptables -t nat -A PREROUTING -p tcp --dport 443 -j REDIRECT --to-ports 4430
+iptables -t nat -L # look reles after
 ```
 
 Вы должны увидеть что-то вроде ( **8000** и **4430** должно быть в config как **port** и **sslPort** )
@@ -224,8 +224,8 @@ REDIRECT   tcp  --  anywhere             anywhere             tcp dpt:https redi
 в вашому случае они могут отличаться).
 
 ```sh
-# iptables -t nat -D PREROUTING 1
-# iptables -t nat -D PREROUTING 2
+iptables -t nat -D PREROUTING 1
+iptables -t nat -D PREROUTING 2
 ```
 
 ###nginx
