@@ -1,14 +1,17 @@
 ---
 layout: default
 lang:
- - name: на Английском
+ - name: English
    link: http://cloudcmd.io
+   translation: на Английском
  
- - name: на Украинском
+ - name: Ukrainian
    link: http://ua.cloudcmd.io
+   translation: на Украинском
  
- - name: на Русском
+ - name: Russian
    link: http://ru.cloudcmd.io
+   translation: на Русском
 ---
 
 Cloud Commander 0.9.0
