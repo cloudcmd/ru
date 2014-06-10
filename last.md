@@ -109,7 +109,6 @@ Cloud Commander 0.9.0
 
 Редактор
 ---------------
-[Демо](http://io.cloudcmd.io/fs/etc#/edit/passwd "Edit")
 ![Edit](http://cloudcmd.io/img/screen/edit.png "Edit")
 
 
@@ -127,7 +126,6 @@ Cloud Commander 0.9.0
 
 Консоль
 ---------------
-[Демо](http://io.cloudcmd.io#/console "Консоль")
 ![Консоль](http://cloudcmd.io/img/screen/console.png "Консоль")
 
 ###Горячие клавиши
@@ -138,7 +136,6 @@ Cloud Commander 0.9.0
 
 Настройки
 ---------------
-[Демо](http://io.cloudcmd.io#/config "Настройки")
 ![Настройки](http://cloudcmd.io/img/screen/config.png "Настройки")
 
 ###Горячие клавиши
@@ -149,7 +146,6 @@ Cloud Commander 0.9.0
 
 Меню
 ---------------
-[Демо](http://io.cloudcmd.io#/menu "Меню")
 ![Menu](http://cloudcmd.io/img/screen/menu.png "Меню")
 Щелчок правой кнопкой мыши вызывает контекстное меню с такими пунктами:
 
