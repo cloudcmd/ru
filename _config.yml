@@ -1,0 +1,19 @@
+markdown        : redcarpet
+redcarpet       :
+ extensions     : ["tables"]
+name            : Cloud Commander
+title           : "Cloud Commander - облачный файловый менеджер"
+tagLine         : Облачный файловый менеджер с консолью и редактором
+viewOn          : Посмотреть на GitHub
+download        : Скачать
+maintainedBy    : Проект поддерживает
+contact         : Связатся с автором
+yandex          : 536737db9426479f
+metrika         : 24212665
+ga              : UA-45093573-3
+canonical       : ru.cloudcmd.io
+repoName        : cloudcmd/ru/edit/gh-pages/last.md 
+improveText     : Исправить ошибку на сайте
+repoSource      : coderaiser/cloudcmd
+image           : http://cloudcmd.io/img/logo/cloudcmd.png
+favicon         : http://ru.cloudcmd.io/favicon.ico
