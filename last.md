@@ -325,6 +325,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 Для расширения функционала файлового менеджера используются следующие модули:
 
 - [Ace]                     [AceURL]
+- [Diff-Match-Patch]        [Diff-Match-PatchURL]
 - [Minify]                  [MinifyURL]
 - [FancyBox]                [FancyBoxURL]
 - [jQuery-contextMenu]      [jQuery-contextMenuURL]
@@ -338,6 +339,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 - [mkdirp]                  [mkdirpURL]
 
 [AceURL]:                   http://ace.ajax.org/ "Ace"
+[Diff-Match-PatchURL]:      https://code.google.com/p/google-diff-match-patch/ "Diff-Match-Patch"
 [MinifyURL]:                http://coderaiser.github.io/minify "Minify"
 [FancyBoxURL]:              //github.com/fancyapps/fancyBox "FancyBox"
 [jQuery-contextMenuURL]:    //github.com/medialize/jQuery-contextMenu "jQuery-contextMenu"
