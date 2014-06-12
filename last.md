@@ -176,7 +176,6 @@ Cloud Commander считывает информацию из файла наст
     "auth"              : false,            /* разрешить http авторизацию                                      */
     "username"          : "root",           /* имя пользователя для авторизации                                */
     "password"          : "toor",           /* пароль хеш в sha-1 для авторизации                              */
-    "api_url"           :"/api/v1",
     "appCache"          : false,            /* кешировать файлы для оффлайн использования                      */
     "analytics"         : true,             /* поддержка google analytics                                      */
     "diff"              : false,            /* при сохранении - отсылает патч, а не весь файл                  */
@@ -358,7 +357,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 Получение dev версии **Cloud Commander**:
 
     git clone git://github.com/coderaiser/cloudcmd.git
-    git checkout dev
+    cd cloudcmd && git checkout dev
 
 Возможно Вам понадобится dev версия Minify,
 в таком случае наберите следующие команды:
