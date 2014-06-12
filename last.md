@@ -333,7 +333,8 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 - [jquery]                  [jqueryURL]
 - [socket.io]               [socketIOURL]
 - [http-auth]               [httpAuthURL]
-- [fs-extra]                [fs-extraURL]
+- [rimraf]                  [rimrafURL]
+- [mkdirp]                  [mkdirpURL]
 
 [AceURL]:                   http://ace.ajax.org/ "Ace"
 [MinifyURL]:                http://coderaiser.github.io/minify "Minify"
@@ -345,7 +346,8 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 [jqueryURL]:                //jquery.com
 [socketIOURL]:              http://socket.io
 [httpAuthURL]:              //github.com/gevorg/http-auth
-[fs-extraURL]:              //github.com/jprichardson/node-fs-extra "fs-extra"
+[rimrafURL]:                //github.com/isaacs/rimraf "rimraf"
+[mkdirpURL]:                //github.com/substack/node-mkdirp
 
 Присоединиться к проекту
 ---------------
