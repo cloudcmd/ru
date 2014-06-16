@@ -396,5 +396,5 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 
 Особая благодарность:
 ---------------
-- [Polietilena](http://polietilena.github.io/ "Polietilena") за **logo** and **favicon**.
+- [Polietilena](http://polietilena.github.io/ "Polietilena") за **logo** и **favicon**.
 - [TarZak](https://github.com/tarzak) за русский и украинский переводы.
