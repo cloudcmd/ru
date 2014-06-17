@@ -63,9 +63,9 @@ Cloud Commander 0.9.2
     cloudcmd
 
 Cloud Commander считывает информацию из файла настроек `json/config.json` и запускает сервер
-на стандартном порту (`8000`), если не находит переменны окружения с именами: `cloud9`, `cloudfoundry` и `nodester`.
+на стандартном порту (`8000`), если не находит переменные окружения с именами `cloud9`, `cloudfoundry` и `nodester`.
 
-Для начала работы, просто наберите в адресной строке браузере:
+Для начала работы просто наберите в адресной строке браузера
 
     http://127.0.0.1:8000
 
@@ -94,7 +94,7 @@ Cloud Commander считывает информацию из файла наст
 | `Ctrl + d`            | очистить локальное хранилище
 | `Alt  + q`            | отключить привязку клавиш
 | `Alt  + s`            | вернуть все привязки клавиш
-| `Ctrl + A`            | выбрать(выделить) все файлы на панели
+| `Ctrl + A`            | выбрать (выделить) все файлы на панели
 | `Up`, `Down`, `Enter` | перемещение по файловой системе
 | `Ctrl + \`            | перейти в корневую папку
 | `Tab`                 | переключение между панелями
@@ -175,18 +175,18 @@ Cloud Commander считывает информацию из файла наст
 {
     "auth"              : false,            /* разрешить http авторизацию                                      */
     "username"          : "root",           /* имя пользователя для авторизации                                */
-    "password"          : "toor",           /* пароль хеш в sha-1 для авторизации                              */
+    "password"          : "toor",           /* хеш пароля в sha-1 для авторизации                              */
     "appCache"          : false,            /* кешировать файлы для оффлайн использования                      */
     "analytics"         : true,             /* поддержка google analytics                                      */
     "diff"              : false,            /* при сохранении - отсылает патч, а не весь файл                  */
     "zip"               : false,            /* zip текст перед отсылкой / unzip перед сохранением              */
-    "notifications"     : false,            /* показувати сповіщення, коли вкладка не активна                  */
+    "notifications"     : false,            /* показывать оповещения, если вкладка не активна                  */
     "localStorage"      : true,             /* кеширование содержимого папки                                   */
-    "minify"            : true,             /* минификация js,css,html и изображений                           */
+    "minify"            : true,             /* минификация js, css, html и изображений                         */
     "cache"             : true,             /* кеширование                                                     */
-    "online"            : true,             /* загрузить файлы js с cdn или Local path                         */
+    "online"            : true,             /* загрузить файлы js из cdn или Local path                        */
     "logs"              : false,            /* выводить в логи или в консоль                                   */
-    "showKeysPanel"     : true,             /* показать классическую панель с кнопками функциональных клавишь  */
+    "showKeysPanel"     : true,             /* показать классическую панель с кнопками функциональных клавиш   */
     "server"            : true,             /* режим сервера или тестирования                                  */
     "socket"            : true              /* включить web сокеты                                             */
     "port"              : 8000,             /* http порт                                                       */
@@ -212,8 +212,8 @@ git update-index --no-assume-unchanged json/config.json
 
 Сервер
 ---------------
-Обычно процессы, запущенные правами не root не могут обращаться к портам ниже чем 1024.
-В любом случае, Я советую Вам запускать Cloud Commander не под root. Как это сделать?
+Обычно процессы, запущенные с правами отличными от root, не могут слушать порты с номером меньше, чем 1024.
+В любом случае, я советую Вам запускать Cloud Commander не под root. Как это сделать?
 Существует несколько простых и быстрых вариантов. Один из них - перенаправление портов через iptables.
 
 ###Iptables
@@ -232,8 +232,8 @@ target     prot opt source               destination
 REDIRECT   tcp  --  anywhere             anywhere             tcp dpt:http redir ports 8000
 REDIRECT   tcp  --  anywhere             anywhere             tcp dpt:https redir ports 4430
 ```
-Если захотите всё вернуть, просто очистите правила ( **1** и **2** это номера правил,
-в вашому случае они могут отличаться).
+Если захотите всё вернуть, просто очистите правила ( **1** и **2** — это номера правил,
+в вашем случае они могут отличаться).
 
 ```sh
 iptables -t nat -D PREROUTING 1
@@ -241,14 +241,14 @@ iptables -t nat -D PREROUTING 2
 ```
 
 ###nginx
-Возьмите [nginx](http://nginx.org/ "nginx"). В linux это можно сделать так:
+Возьмите [nginx](http://nginx.org/ "nginx"). В Linux это можно сделать так:
 
 ```sh
 sudo apt-get install nginx #for ubuntu and debian
 ```
 
 И сделайте хост файл **/etc/nginx/sites-enabled/io.cloudcmd.io**
-( *io.cloudcmd.io* ваше доменное імя) с содержимым:
+( *io.cloudcmd.io* ваше доменное имя) с содержимым:
 
 ```sh
 server {
@@ -297,7 +297,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 /etc/init.d/nginx restart
 ```
 
-Для запуска Cloud Commander под daemon в linux установите **log** в **true** в config-файлe и
+Для запуска Cloud Commander в качестве демона в Linux установите **log** в **true** в config-файлe и
 введите:
     
     nohup node cloudcmd
@@ -353,13 +353,13 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 
 Присоединиться к проекту
 ---------------
-Если вы желаете присоединиться к проекту - направьте pull запрос в dev ветку.
+Если вы желаете присоединиться к проекту — направьте pull запрос в dev ветку.
 Получение dev версии **Cloud Commander**:
 
     git clone git://github.com/coderaiser/cloudcmd.git
     cd cloudcmd && git checkout dev
 
-Возможно Вам понадобится dev версия Minify,
+Возможно, вам понадобится dev версия Minify,
 в таком случае наберите следующие команды:
 
     cd node_modules
