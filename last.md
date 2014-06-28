@@ -227,6 +227,7 @@ iptables -t nat -L # look reles after
 ```
 
 Вы должны увидеть что-то вроде ( **8000** и **4430** должно быть в config как **port** и **sslPort** )
+
 ```
 target     prot opt source               destination
 REDIRECT   tcp  --  anywhere             anywhere             tcp dpt:http redir ports 8000
