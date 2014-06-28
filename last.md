@@ -58,7 +58,7 @@ Cloud Commander 0.9.2
     
     node cloudcmd
 
-для windows:
+при глобальной установке:
 
     cloudcmd
 
