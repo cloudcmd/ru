@@ -50,14 +50,11 @@ Cloud Commander 1.1.1
 - установить [node.js](//nodejs.org/ "node.js").
 
 - установить ```cloudcmd``` при помощи npm:
-
-
-    npm install cloudcmd #local install
-    
-или
-
-    npm install cloudcmd -g #global install
-    
+- 
+```sh
+npm install cloudcmd #local install или
+npm install cloudcmd -g #global install
+```
     
 ![NPM_INFO][NPM_INFO_IMG]
 
