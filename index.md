@@ -223,7 +223,7 @@ npm install cloudcmd -g #global install
     "port"              : 8000,             /* http порт                                                       */
     "sslPort"           : 443,              /* https порт                                                      */
     "ip"                : null,             /* ip или null(по умолчанию)                                       */
-    "ssl"               : false            /* использовать https?                                             */
+    "ssl"               : false             /* использовать https?                                             */
 }
 ```
 
