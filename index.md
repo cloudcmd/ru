@@ -183,6 +183,7 @@ npm install cloudcmd -g #global install
 - Удалить
 - запаковать
 - распаковать
+- Выгрузить
 - Выгрузить в (Dropbox, Github, GDrive)
 - Загрузить
 - Новый (Файл, Папка, с облака)
