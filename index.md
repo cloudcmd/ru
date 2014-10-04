@@ -338,8 +338,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 - [Diff-Match-Patch]        [Diff-Match-PatchURL]
 - [Minify]                  [MinifyURL]
 - [FancyBox]                [FancyBoxURL]
-- [jQuery-contextMenu]      [jQuery-contextMenuURL]
-- [jq-console]              [jq-consoleURL]
+- [console-io]              [console-ioURL]
 - [github]                  [githubURL]
 - [dropbox-js]              [dropbox-jsURL]
 - [jquery]                  [jqueryURL]
@@ -352,8 +351,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 [Diff-Match-PatchURL]:      https://code.google.com/p/google-diff-match-patch/ "Diff-Match-Patch"
 [MinifyURL]:                http://coderaiser.github.io/minify "Minify"
 [FancyBoxURL]:              //github.com/fancyapps/fancyBox "FancyBox"
-[jQuery-contextMenuURL]:    //github.com/medialize/jQuery-contextMenu "jQuery-contextMenu"
-[jq-consoleURL]:            //github.com/replit/jq-console‎ "jq-console"
+[console-ioURL]:            //github.com/cloudcmd/console "console-io"
 [githubURL]:                //github.com/michael/github "github"
 [dropbox-jsURL]:            //github.com/dropbox/dropbox-js "dropbox-js"
 [jqueryURL]:                //jquery.com
