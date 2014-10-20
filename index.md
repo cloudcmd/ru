@@ -51,22 +51,17 @@ Cloud Commander 1.3.2
 - установить ```cloudcmd``` через npm:
  
 ```sh
-npm install cloudcmd #local install или
-npm install cloudcmd -g #global install
+npm i cloudcmd -g
 ```
 
 ![NPM_INFO][NPM_INFO_IMG]
 
 Запуск
 ---------------
-Что бы запустить **Cloud Commander**, измените директорию на `node_modules/cloudcmd` и
-используйте команду:
-
-    node bin/cloudcmd
-
-или при установке с флагом `-g`, просто введите в любой папке:
-
+Для запуска наберите в консоли:
+```sh
     cloudcmd
+```
 
 **Cloud Commander** поддерживает параметры в командной строке:
 
@@ -80,15 +75,23 @@ npm install cloudcmd -g #global install
 
 Что бы начать работу, введите в адресной строке вашего браузера:
 
-    http://localhost:<port>
+```
+http://localhost:<port>
+```
+
+При настройках по умолчанию:
+```
+http://localhost:8000
+```
 
 Обновление
 ---------------
-Если Вы установили Cloud Commander при помощи `npm`, просто переустановите его:
+Если Вы установили Cloud Commander при помощи `npm`, остановите приложение и переустановите его:
+```sh
+npm i cloudcmd -g
+```
 
-    npm i cloudcmd -g
-
-После чего нужно очистить кэш браузера, перезапустить Cloud Commander и обновить страницу.
+После чего запустите его снова, почистите кэш и обновите страницу.
 
 Горячие клавиши
 ---------------
