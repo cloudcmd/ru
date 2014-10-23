@@ -146,6 +146,7 @@ npm i cloudcmd -g
 | `Ctrl + f`            | поиск
 | `Ctrl + f + f`        | замена
 | `Ctrl + g`            | перейти к строке
+| `Ctrl + b`            | beautify js, css или html
 | `Esc`                 | закрыть
  
 Подробнее [Горячие клавиши Ace](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts "Горячие клавиши Ace").
