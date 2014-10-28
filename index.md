@@ -173,7 +173,7 @@ npm i cloudcmd -g
 | `Ctrl + m`            | minify js, css або html
 | `Esc`                 | закрыть
  
-Подробнее [Горячие клавиши Ace](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts "Горячие клавиши Ace").
+[Горячие клавиши Ace](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts "Горячие клавиши Ace").
 
 Консоль
 ---------------
@@ -188,7 +188,7 @@ npm i cloudcmd -g
 | `Ctrl + l`            | очистить
 | `Esc`                 | закрыть
 
-Подробнее [Jq-console горячие клавиши](https://github.com/replit/jq-console#default-key-config).
+[Горячие клавиши Jq-console](https://github.com/replit/jq-console#default-key-config).
 
 Настройки
 ---------------
