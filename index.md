@@ -212,7 +212,6 @@ npm i cloudcmd -g
     "auth"              : false,            /* разрешить http авторизацию                                      */
     "username"          : "root",           /* имя пользователя для авторизации                                */
     "password"          : "toor",           /* хеш пароля в sha-1 для авторизации                              */
-    "analytics"         : true,             /* поддержка google analytics                                      */
     "diff"              : false,            /* при сохранении - отсылает патч, а не весь файл                  */
     "zip"               : false,            /* zip текст перед отсылкой / unzip перед сохранением              */
     "notifications"     : false,            /* показывать оповещения, если вкладка не активна                  */
