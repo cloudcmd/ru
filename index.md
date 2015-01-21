@@ -187,11 +187,9 @@ npm i cloudcmd -g
 |:----------------------|:--------------------------------------------
 | `~`                   | открыть
 | `Ctrl + p`            | вставить путь текущей папки
-| `Ctrl + z`            | отменить текущую строку
-| `Ctrl + l`            | очистить
 | `Esc`                 | закрыть
 
-[Горячие клавиши Jq-console](https://github.com/replit/jq-console#default-key-config).
+[Горячие клавиши console](https://github.com/cloudcmd/console#hot-keys).
 
 Настройки
 ---------------
