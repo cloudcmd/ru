@@ -176,7 +176,7 @@ npm i cloudcmd -g
 | `Ctrl + m`            | minify js, css або html
 | `Esc`                 | закрыть
  
-[Горячие клавиши Ace](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts "Горячие клавиши Ace").
+[Горячие клавиши Edward](https://github.com/cloudcmd/edward/#hot-keys "Горячие клавиши Edward").
 
 Консоль
 ---------------
@@ -189,7 +189,7 @@ npm i cloudcmd -g
 | `Ctrl + p`            | вставить путь текущей папки
 | `Esc`                 | закрыть
 
-[Горячие клавиши console](https://github.com/cloudcmd/console#hot-keys).
+[Горячие клавиши console](https://github.com/cloudcmd/console#hot-keys "Горячие клавиши console").
 
 Настройки
 ---------------
