@@ -114,7 +114,7 @@ npm i cloudcmd -g
 | `Shift + Delete`      | удалить без запроса о подтверждении
 | `F9`                  | меню
 | `F10`                 | настройки
-| `(*)`                 | виделить/снять выделение со всех файлов
+| `(*)`                 | выделить/снять выделение со всех файлов
 | `(+)`                 | расширить выделение
 | `(-)`                 | сузить выделение
 | `Ctrl + x`            | вырезать в буфер
@@ -173,10 +173,10 @@ npm i cloudcmd -g
 | `Ctrl + f + f`        | замена
 | `Ctrl + g`            | перейти к строке
 | `Ctrl + b`            | beautify js, css или html
-| `Ctrl + m`            | minify js, css або html
+| `Ctrl + m`            | minify js, css или html
 | `Esc`                 | закрыть
  
-[Горячие клавиши Edward](https://github.com/cloudcmd/edward/#hot-keys "Горячие клавиши Edward").
+[Горячие клавиши Edward](https://github.com/cloudcmd/edward/#hot-keys "Горячие клавиши Edward")
 
 Консоль
 ---------------
@@ -189,7 +189,7 @@ npm i cloudcmd -g
 | `Ctrl + p`            | вставить путь текущей папки
 | `Esc`                 | закрыть
 
-[Горячие клавиши console](https://github.com/cloudcmd/console#hot-keys "Горячие клавиши console").
+[Горячие клавиши console](https://github.com/cloudcmd/console#hot-keys).
 
 Настройки
 ---------------
@@ -202,7 +202,7 @@ npm i cloudcmd -g
 | `Esc`                 | закрыть
 
 Когда Вы меняете одну из опций, файл `~/.cloudcmd.json` может быть сохранен.
-Их можна поменять собственноручно в любом текстовом редакторе.
+Их можно поменять собственноручно в любом текстовом редакторе.
 Вот описание опций:
 
 ```js
