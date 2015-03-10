@@ -48,6 +48,7 @@ Cloud Commander 2.1.0
 Установить **Cloud Commander** проще простого.
 
 - установить [node.js](//nodejs.org/ "node.js") или [io.js](https://iojs.org/ "io.js") если вы этого еще не сделали.
+- установить [bower](http://bower.io "Bower") и [git](http://git-scm.com "Git") ([Как установить Git под Windows(en)](https://github.com/bower/bower#windows-users "Как установить Git под Windows(en)"))
 - установить ```cloudcmd``` через npm:
  
 ```sh
