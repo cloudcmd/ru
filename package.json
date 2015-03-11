@@ -1,0 +1,23 @@
+{
+  "name": "ru",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ru",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "yaspeller": "yaspeller index.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudcmd/ru.git"
+  },
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloudcmd/ru/issues"
+  },
+  "homepage": "https://github.com/cloudcmd/ru",
+  "devDependencies": {
+    "yaspeller": "~1.0.2"
+  }
+}
