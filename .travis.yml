@@ -1,7 +1,11 @@
 language: node_js
 node_js:
     - iojs
-
+    
+branches:
+  only:
+  - gh-pages
+  
 script:
   - npm run yaspeller
 
