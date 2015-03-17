@@ -25,6 +25,10 @@ Cloud Commander 2.2.0
 [JitSu_LIVE_IMG]:           https://status-io.cloudcmd.io/host/cloudcmd.jit.su/img/txt.png "JitSu"
 [HEROKU_LIVE_IMG]:          https://status-io.cloudcmd.io/host/cloudcmd.herokuapp.com/img/txt.png "Heroku"
 
+[DWORD]:                    https://github.com/coderaiser/dword "Редактор основанный на CodeMirror"
+[EDWARD]:                   https://github.com/cloudcmd/edward "Редактор основанный на Ace"
+[EDWARD_KEYS]:              https://github.com/cloudcmd/edward/#hot-keys "Горячие клавиши Edward"
+
 **Cloud Commander** - двухпанельный веб файл менеджер с консолью и редактором. Поможет вам управлять сервером и работать с файлами, папками и программами в браузере на любом компьютере, смартфоне или планшете.
 
 ![Cloud Commander](http://cloudcmd.io/img/logo/cloudcmd.png "Cloud Commander")
@@ -38,7 +42,7 @@ Cloud Commander 2.2.0
 - Сервер работает под **Windows**, **Linux** и **Mac OS**.
 - Может использоваться локально или удаленно.
 - Адаптируется под размер экрана.
-- **Редактор** с поддержкой **подсветки синтаксиса** для более чем 110 языков.
+- **2 встроенных редактора** с поддержкой **подсветки синтаксиса**: [Dword][DWORD] и [Edward][EDWARD].
 - **Консоль** с поддержкой стандартной командной строки ОС.
 - Написан на **JavaScript/Node.js**.
 
@@ -157,7 +161,7 @@ npm i cloudcmd -g
 | `F4`                  | открыть
 | `Esc`                 | закрыть
  
-[Горячие клавиши Edward](https://github.com/cloudcmd/edward/#hot-keys "Горячие клавиши Edward")
+[Горячие клавиши Edward][EDWARD_KEYS].
 
 Консоль
 ---------------
