@@ -1,11 +1,12 @@
 {
   "name": "cloudcmd-ru",
-  "version": "1.0.0",
+  "version": "2.2.0",
   "private": true,
   "description": "ru",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "yaspeller": "yaspeller index.md"
+    "yaspeller": "yaspeller index.md",
+    "release": "bin/release.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/cloudcmd/ru",
   "devDependencies": {
+    "minor": "~1.2.3",
+    "place": "~1.1.2",
+    "rendy": "~1.0.6",
+    "shortdate": "~1.0.1",
     "yaspeller": "~1.0.2"
-  }
+  },
+  "dependencies": {}
 }
