@@ -7,6 +7,7 @@
         place       = require('place'),
         rendy       = require('rendy'),
         shortdate   = require('shortdate'),
+        files       = require('files-io'),
         Info        = require(DIR + 'package');
         
     module.exports = function(callback) {
@@ -28,7 +29,15 @@
                         version : versionNew
                     });
                     
-                    replaceVersion('index.md', history, historyNew, callback);
+                    replaceVersion('index.md', history, historyNew, function() {
+                        var to = rendy('v{{ version }}.md', {
+                            version: versionNew
+                        });
+                        
+                        files.pipe('index.md', to, function(error) {
+                            callback(error, 'done: ok');
+                        });
+                    });
                 });
             }
         });
