@@ -10,7 +10,8 @@
         Info        = require(DIR + 'package');
         
     module.exports = function(callback) {
-        var history     = 'Version history\n---------------\n',
+        var name        = 'История версий',
+            history     = name + '\n---------------\n',
             link        = '//github.com/cloudcmd/archive/raw/master/cloudcmd',
             template    = '- *{{ date }}*, '    +
                           '**[v{{ version }}]'   +
