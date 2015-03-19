@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "yaspeller": "yaspeller index.md",
-    "release": "bin/release.js"
+    "release": "bin/release.js",
+    "commit": "git add --all && git commit -m 'docs(index) update'",
+    "push" : "git push origin gh-pages",
+    "publish": "npm run release && npm run commit && npm run push"
   },
   "repository": {
     "type": "git",
