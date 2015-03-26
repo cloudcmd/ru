@@ -12,7 +12,7 @@
         
     module.exports = function(callback) {
         var name        = 'История версий',
-            ext         = 'tar.gz',
+            ext         = '.tar.gz',
             history     = name + '\n---------------\n',
             link        = '//github.com/cloudcmd/archive/raw/master/cloudcmd',
             template    = '- *{{ date }}*, '    +
