@@ -195,6 +195,7 @@ npm i cloudcmd -g
     "auth"              : false,            /* разрешить http авторизацию                                      */
     "username"          : "root",           /* имя пользователя для авторизации                                */
     "password"          : "toor",           /* хеш пароля в sha-1 для авторизации                              */
+    "algo"              : "sha512WithRSAEncryption", /* криптографический алгоритм                             */
     "editor"            : "edward",         /* по умолчанию, может быть "dword" или "edward"                   */
     "diff"              : false,            /* при сохранении - отсылает патч, а не весь файл                  */
     "zip"               : false,            /* zip текст перед отсылкой / unzip перед сохранением              */
