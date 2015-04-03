@@ -8,7 +8,7 @@
     "yaspeller": "yaspeller index.md",
     "release": "bin/release.js",
     "commit": "git add --all && git commit -m 'docs(index) update'",
-    "push": "git push origin gh-pages",
+    "push": "git pull --rebase && git push origin gh-pages",
     "publish": "npm run commit && npm run push"
   },
   "repository": {
