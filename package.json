@@ -9,7 +9,8 @@
     "release": "bin/release.js",
     "commit": "git add --all && git commit -m 'docs(index) update'",
     "push": "git pull --rebase && git push origin gh-pages",
-    "publish": "npm run commit && npm run push"
+    "publish": "npm run commit && npm run push",
+    "wisdom": "bin/release.js"
   },
   "repository": {
     "type": "git",
