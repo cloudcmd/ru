@@ -1,16 +1,17 @@
 {
   "name": "cloudcmd-ru",
-  "version": "2.4.2",
+  "version": "2.5.0",
   "private": true,
   "changelog": false,
   "release": false,
+  "branch": "gh-pages",
   "description": "ru",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "yaspeller": "yaspeller index.md",
     "release": "bin/release.js",
     "add": "git add --all",
-    "wisdom": "npm run release && npm run add"
+    "wisdom": "bin/release.js"
   },
   "repository": {
     "type": "git",
