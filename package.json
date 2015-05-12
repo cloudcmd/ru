@@ -7,8 +7,8 @@
   "branch": "gh-pages",
   "description": "ru",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "yaspeller": "yaspeller index.md",
+    "test": "npm run yaspeller",
     "wisdom": "bin/release.js"
   },
   "repository": {
