@@ -27,7 +27,7 @@ Cloud Commander 3.0.3
 [JitSu_LIVE_IMG]:           https://status-io.cloudcmd.io/host/cloudcmd.jit.su/img/txt.png "JitSu"
 [HEROKU_LIVE_IMG]:          https://status-io.cloudcmd.io/host/cloudcmd.herokuapp.com/img/txt.png "Heroku"
 
-[DWORD]:                    https://github.com/coderaiser/dword "Редактор основанный на CodeMirror"
+[DWORD]:                    https://github.com/cloudcmd/dword "Редактор основанный на CodeMirror"
 [EDWARD]:                   https://github.com/cloudcmd/edward "Редактор основанный на Ace"
 [EDWARD_KEYS]:              https://github.com/cloudcmd/edward/#hot-keys "Горячие клавиши Edward"
 
