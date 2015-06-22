@@ -270,7 +270,7 @@ Cloud Commander может работать в режиме одной пане�
 Использование в качестве Middleware
 ---------------
 
-Cloud Commander может использоваться в качестве middleware для `node.js` приложений основанных на  [socket.io](http://socket.io Socket.IO") и [express](http://expressjs.com "Express"):
+Cloud Commander может использоваться в качестве middleware для `node.js` приложений основанных на  [socket.io](http://socket.io "Socket.IO") и [express](http://expressjs.com "Express"):
 
 ```js
 var http        = require('http'),
