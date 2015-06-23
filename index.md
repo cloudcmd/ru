@@ -288,7 +288,7 @@ server = http.createServer(app);
 socket = io.listen(server);
 
 app.use(cloudcmd({
-    prefix: '/prefix',  /* основной URL (не обязательно)                                                 */
+    prefix: '/prefix',  /* основной URL или функция возвращающая основной URL (не обязательно)           */
     socket: socket,     /* используется Config'ом, Edit'ом (не обязательно) и Console'ью (обязательно)   */
     config: {}          /* данные настроек (не обязательно)                                              */
 }));
