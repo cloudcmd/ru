@@ -62,6 +62,12 @@ npm i cloudcmd -g
 
 ![NPM_INFO][NPM_INFO_IMG]
 
+Возникли проблемы:
+
+```sh
+npm i cloudcmd -g --force
+```
+
 Запуск
 ---------------
 Для запуска наберите в консоли:
