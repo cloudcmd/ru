@@ -31,6 +31,8 @@ Cloud Commander 5.0.3
 [EDWARD]:                   https://github.com/cloudcmd/edward "Редактор основанный на Ace"
 [EDWARD_KEYS]:              https://github.com/cloudcmd/edward/#hot-keys "Горячие клавиши Edward"
 
+[Docker_URL]:                https://docker.io "Docker"
+
 **Cloud Commander** - двухпанельный веб файл менеджер с консолью и редактором. Поможет вам управлять сервером и работать с файлами, каталогами и программами в браузере на любом компьютере, смартфоне или планшете.
 
 ![Cloud Commander](http://cloudcmd.io/img/logo/cloudcmd.png "Cloud Commander")
@@ -394,6 +396,18 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 # restart nginx
 /etc/init.d/nginx restart
 ```
+
+Docker
+---------------
+`Cloud Commander` можна использовать как [docker][DOCKER_URL] контейнер:
+
+```sh
+docker run -v ~:/root -v /:/mnt/fs -it -p 8000:8000 coderaiser/cloudcmd
+```
+
+Настройки будут читаться с домашнего каталога, hosts будет монтирован к `/mnt/fs`,
+`8000` порт будет выставлен к порту в hosts.
+
 
 История версий
 ---------------
