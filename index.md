@@ -399,7 +399,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 
 Docker
 ---------------
-`Cloud Commander` можна использовать как [docker][DOCKER_URL] контейнер:
+`Cloud Commander` можно использовать как [docker][DOCKER_URL] контейнер:
 
 ```sh
 docker run -v ~:/root -v /:/mnt/fs -it -p 8000:8000 coderaiser/cloudcmd
