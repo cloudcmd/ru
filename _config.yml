@@ -1,6 +1,3 @@
-markdown        : redcarpet
-redcarpet       :
- extensions     : ["tables"]
 name            : Cloud Commander
 title           : "Cloud Commander - облачный файловый менеджер"
 tagLine         : Облачный файловый менеджер с консолью и редактором
