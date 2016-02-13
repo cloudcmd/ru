@@ -19,19 +19,19 @@ hideDownloadButtons: true
 Cloud Commander 5.0.15
 ===============
 ###[Главная][MainURL] [Блог][BlogURL] Демо(![JitSu][JitSu_LIVE_IMG] [JitSu][JitSuURL], ![Heroku][Heroku_LIVE_IMG] [Heroku][HerokuURL])
-[NPM_INFO_IMG]:             https://camo.githubusercontent.com/254a020afe689842501ef5a79c04ba909f9b29d2/68747470733a2f2f6e6f6465692e636f2f6e706d2f636c6f7564636d642e706e673f646f776e6c6f6164733d7472756526267374617273 "npm install cloudcmd"
-[MainURL]:                  http://cloudcmd.io "Главная"
-[BlogURL]:                  http://blog.cloudcmd.io "Блог"
-[JitSuURL]:                 http://cloudcmd.jit.su "JitSu"
-[HerokuURL]:                http://cloudcmd.herokuapp.com/ "Heroku"
-[JitSu_LIVE_IMG]:           https://status-io.cloudcmd.io/host/cloudcmd.jit.su/img/txt.png "JitSu"
-[HEROKU_LIVE_IMG]:          https://status-io.cloudcmd.io/host/cloudcmd.herokuapp.com/img/txt.png "Heroku"
+[NPM_INFO_IMG]:             https://camo.githubusercontent.com/254a020afe689842501ef5a79c04ba909f9b29d2/68747470733a2f2f6e6f6465692e636f2f6e706d2f636c6f7564636d642e706e673f646f776e6c6f6164733d7472756526267374617273
+[MainURL]:                  http://cloudcmd.io
+[BlogURL]:                  http://blog.cloudcmd.io
+[JitSuURL]:                 http://cloudcmd.jit.su
+[HerokuURL]:                http://cloudcmd.herokuapp.com/
+[JitSu_LIVE_IMG]:           https://status-io.cloudcmd.io/host/cloudcmd.jit.su/img/txt.png
+[HEROKU_LIVE_IMG]:          https://status-io.cloudcmd.io/host/cloudcmd.herokuapp.com/img/txt.png
 
-[DWORD]:                    https://github.com/cloudcmd/dword "Редактор основанный на CodeMirror"
-[EDWARD]:                   https://github.com/cloudcmd/edward "Редактор основанный на Ace"
-[EDWARD_KEYS]:              https://github.com/cloudcmd/edward/#hot-keys "Горячие клавиши Edward"
+[DWORD]:                    https://github.com/cloudcmd/dword
+[EDWARD]:                   https://github.com/cloudcmd/edward
+[EDWARD_KEYS]:              https://github.com/cloudcmd/edward/#hot-keys
 
-[Docker_URL]:                https://docker.io "Docker"
+[Docker_URL]:                https://docker.io
 
 **Cloud Commander** - двухпанельный веб файл менеджер с консолью и редактором. Поможет вам управлять сервером и работать с файлами, каталогами и программами в браузере на любом компьютере, смартфоне или планшете.
 
