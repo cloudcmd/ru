@@ -400,6 +400,12 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 /etc/init.d/nginx restart
 ```
 
+Deploy
+---------------
+`Cloud Commander` можна легко задеплоить на [Heroku](https://heroku.com/deploy?template=https://github.com/coderaiser/cloudcmd "Deploy to Heroku").
+
+[![Задеплоить](https://www.herokucdn.com/deploy/button.png "Задеплоить на Heroku")]( https://heroku.com/deploy?template=https://github.com/coderaiser/cloudcmd)
+
 Docker
 ---------------
 `Cloud Commander` можно использовать как [docker контейнер](https://hub.docker.com/r/coderaiser/cloudcmd/ "Docker контейнер"):
