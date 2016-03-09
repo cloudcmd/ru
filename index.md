@@ -402,7 +402,7 @@ ln -s ./sites-enabled/io.cloudcmd.io ./sites-available
 
 Разворачивание
 ---------------
-`Cloud Commander` можна легко развернуть на [Heroku](https://heroku.com/deploy?template=https://github.com/coderaiser/cloudcmd "Развернуть на Heroku").
+`Cloud Commander` можно легко развернуть на [Heroku](https://heroku.com/deploy?template=https://github.com/coderaiser/cloudcmd "Развернуть на Heroku").
 
 [![Развернуть](https://www.herokucdn.com/deploy/button.png "Развернуть на Heroku")]( https://heroku.com/deploy?template=https://github.com/coderaiser/cloudcmd)
 
