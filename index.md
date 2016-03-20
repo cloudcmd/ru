@@ -417,6 +417,25 @@ docker run -v ~:/root -v /:/mnt/fs -it -p 8000:8000 coderaiser/cloudcmd
 Настройки будут читаться из домашнего каталога, корень файловой системы монтирован к `/mnt/fs`,
 `8000` порт контейнера будет доступен через порт главной системы.
 
+Также Вы можете использовать [docker compose](https://docs.docker.com/compose/ "Docker Compose") с `docker-compose.yml`:
+
+```yml
+version: '2'
+services:
+  web:
+    ports:
+      - 8000:8000
+    volumes:
+      - ~:/root
+      - /:/mnt/fs
+    image: coderaiser/cloudcmd
+```
+
+Когда создадите этот файл, запустите:
+
+```sh
+docker-compose up
+```
 
 История версий
 ---------------
