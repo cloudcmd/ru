@@ -239,7 +239,7 @@ npm update cloudcmd -g
     "dirStorage"        : true,             /* сохранить листинг каталога в localStorage                       */
     "minify"            : false,            /* минификация js, css, html и изображений                         */
     "online"            : true,             /* загрузить файлы js из cdn или Local path                        */
-    "open"              : false             /* открывать веб браузер, когда сервер запущен                     */
+    "open"              : false,            /* открывать веб браузер, когда сервер запущен                     */
     "cache"             : true,             /* кеширование                                                     */
     "showKeysPanel"     : true,             /* показать классическую панель с кнопками функциональных клавиш   */
     "port"              : 8000,             /* http порт                                                       */
