@@ -246,7 +246,7 @@ npm update cloudcmd -g
     "ip"                : null,             /* ip или null(по умолчанию)                                       */
     "root"              : "/",              /* корневой каталог                                                */
     "prefix"            : "",               /* url префикс                                                     */
-    "progress"          : true              /* показывать состояние файловых операций                          */
+    "progress"          : true,             /* показывать состояние файловых операций                          */
     "htmlDialogs"       : true              /* показывать html диалоги                                         */
 }
 ```
