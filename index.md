@@ -581,4 +581,4 @@ docker-compose up
 Особая благодарность:
 ---------------
 - [Polietilena](http://polietilena.github.io/ "Polietilena") за **logo** и **favicon**.
-- [TarZak](https://github.com/tarzak) за русский и украинский переводы.
+- [TarZak](https://github.com/tarzak "TarZak") за русский и украинский переводы.
