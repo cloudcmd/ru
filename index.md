@@ -252,7 +252,7 @@ npm update cloudcmd -g
 
 Меню
 ---------------
-![Menu](//cloudcmd.io/img/screen/menu.png "Меню")
+![Меню](//cloudcmd.io/img/screen/menu.png "Меню")
 
 Щелчок правой кнопкой мыши вызывает контекстное меню с такими пунктами:
 
