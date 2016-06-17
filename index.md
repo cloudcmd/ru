@@ -166,7 +166,7 @@ npm update cloudcmd -g
 
  Просмотр
 ---------------
-![View](//cloudcmd.io/img/screen/view.png "View")
+![Просмотр](//cloudcmd.io/img/screen/view.png "Просмотр")
 
 ### Возможности
 - Просматривать изображения.
