@@ -183,7 +183,7 @@ npm update cloudcmd -g
 
 Редактор
 ---------------
-![Edit](//cloudcmd.io/img/screen/edit.png "Edit")
+![Редактор](//cloudcmd.io/img/screen/edit.png "Редактор")
 
 ### Горячие клавиши
 
