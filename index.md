@@ -13,6 +13,14 @@ lang:
    link: //ru.cloudcmd.io
    translation: на Русском
 
+scripts:
+ - https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js
+ - https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js
+ - https://files.cloudcmd.io/js/view.js
+
+styles:
+ - https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css
+
 hideDownloadButtons: true
 ---
 
