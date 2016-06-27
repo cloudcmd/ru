@@ -12,12 +12,11 @@
         
     module.exports = function(callback) {
         var name        = 'История версий',
-            ext         = '.tar.gz',
             history     = name + '\n---------------\n',
-            link        = '//github.com/cloudcmd/archive/raw/master/cloudcmd',
+            link        = '//github.com/coderaiser/cloudcmd/releases/tag/,
             template    = '- *{{ date }}*, '    +
                           '**[v{{ version }}]'   +
-                          '(' + link + '-v{{ version }}{{ extension }})**\n',
+                          '(' + link + 'v{{ version }})**\n',
             version     = Info.version;
         
         cl(function(error, versionNew) {
@@ -27,8 +26,7 @@
                 replaceVersion('index.md', version, versionNew, function() {
                     var historyNew = history + rendy(template, {
                         date        : shortdate(),
-                        version     : versionNew,
-                        extension   : ext
+                        version     : versionNew
                     });
                     
                     replaceVersion('index.md', history, historyNew, function() {
