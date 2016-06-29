@@ -13,7 +13,7 @@
     module.exports = function(callback) {
         var name        = 'История версий',
             history     = name + '\n---------------\n',
-            link        = '//github.com/coderaiser/cloudcmd/releases/tag/,
+            link        = '//github.com/coderaiser/cloudcmd/releases/tag/',
             template    = '- *{{ date }}*, '    +
                           '**[v{{ version }}]'   +
                           '(' + link + 'v{{ version }})**\n',
