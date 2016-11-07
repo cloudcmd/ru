@@ -30,7 +30,6 @@ hideDownloadButtons: true
 
 [MainURL]:                  http://cloudcmd.io "Главная"
 [BlogURL]:                  http://blog.cloudcmd.io "Блог"
-[NPM_INFO_IMG]:             https://camo.githubusercontent.com/254a020afe689842501ef5a79c04ba909f9b29d2/68747470733a2f2f6e6f6465692e636f2f6e706d2f636c6f7564636d642e706e673f646f776e6c6f6164733d7472756526267374617273
 [HerokuURL]:                http://cloudcmd.herokuapp.com/
 [HEROKU_LIVE_IMG]:          https://status-io.cloudcmd.io/host/cloudcmd.herokuapp.com/img/txt.png
 
@@ -66,8 +65,6 @@ hideDownloadButtons: true
 ```sh
 npm i cloudcmd -g
 ```
-
-![NPM_INFO][NPM_INFO_IMG]
 
 Возникли проблемы:
 
