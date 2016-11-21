@@ -9,6 +9,7 @@
   "scripts": {
     "yaspeller": "yaspeller index.md",
     "test": "npm run yaspeller",
+    "spell": "npm run yaspeller",
     "wisdom": "bin/release.js"
   },
   "repository": {
