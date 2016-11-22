@@ -604,5 +604,5 @@ docker-compose up
 
 Особая благодарность:
 ---------------
-- [Polietilena](http://polietilena.github.io/ "Polietilena") за **logo** и **favicon**.
+- [Елена Залиток](https://zalitok.github.io/ "Елена Залиток") за **logo** и **favicon**.
 - [TarZak](https://github.com/tarzak "TarZak") за русский и украинский переводы.
