@@ -295,31 +295,45 @@ Cloud Commander может работать в режиме одной пане�
 
 Cloud Commander может использоваться в качестве middleware для `node.js` приложений основанных на  [socket.io](http://socket.io "Socket.IO") и [express](http://expressjs.com "Express"):
 
-```js
-var http        = require('http'),
-    cloudcmd    = require('cloudcmd'),
-    express     = require('express'),
-    io          = require('socket.io'),
-    app         = express(),
-    
-    PORT        = 1337,
-    
-    server,
-    socket;
-    
-server = http.createServer(app);
-socket = io.listen(server);
+Инициализируйте `package.json`:
 
-app.use(cloudcmd({
-    socket: socket,          /* используется Config'ом, Edit'ом (не обязательно) и Console'ью (обязательно)  */
-    config: {                /* опции настроек (не обязательно)                                              */
-        prefix: '/cloudcmd', /* основной URL или функция возвращающая основной URL (не обязательно)          */
-    }
-}));
-
-server.listen(PORT);
+```
+npm init -y
 ```
 
+Установите зависимости:
+
+```
+npm i cloudcmd express socket.io -S
+```
+
+И создайте `index.js`:
+
+```js
+const http = require('http');
+const cloudcmd = require('cloudcmd');
+const io = require('socket.io');
+const app = require('express')();
+    
+const port = 1337;
+const prefix = '/cloudcmd';
+    
+const server = http.createServer(app);
+const socket = io.listen(server, {
+    path: `${prefix}/socket.io`
+});
+    
+const config = {
+    prefix /* основной URL или функция которая возвращает основной URL (не обязательно) */
+};
+
+app.use(cloudcmd({
+    socket,          /* используется Config'ом, Edit'ом (не обязательно) и Console'ью (обязательно)  */
+    config,          /* опции настроек (не обязательно)                                              */
+}));
+
+server.listen(port);
+```
 
 Сервер
 ---------------
