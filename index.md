@@ -35,6 +35,7 @@ hideDownloadButtons: true
 
 [DWORD]:                    https://github.com/cloudcmd/dword "Редактор основанный на CodeMirror"
 [EDWARD]:                   https://github.com/cloudcmd/edward "Редактор основанный на Ace"
+[DEEPWORD]:                 https://github.com/cloudcmd/deepword "Редактор основанный на Monaco"
 [EDWARD_KEYS]:              https://github.com/cloudcmd/edward/#hot-keys "Гарячие клавиши Edward"
 [TERMUX]:                   https://termux.com "Termux"
 
@@ -51,7 +52,7 @@ hideDownloadButtons: true
 - Сервер работает под **Windows**, **Linux**, **Mac OS** и **Android** (при помощи [Termux][TERMUX]).
 - Может использоваться локально или удаленно.
 - Адаптируется под размер экрана.
-- **2 встроенных редактора** с поддержкой **подсветки синтаксиса**: [Dword][DWORD] и [Edward][EDWARD].
+- **3 встроенных редактора** с поддержкой **подсветки синтаксиса**: [Dword][DWORD], [Edward][EDWARD] и [Deepword][DEEPWORD].
 - [Консоль](https://github.com/cloudcmd/console "Консоль") с поддержкой стандартной командной строки ОС.
 - Написан на **JavaScript/Node.js**.
 
