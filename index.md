@@ -30,12 +30,13 @@ hideDownloadButtons: true
 
 [MainURL]:                  http://cloudcmd.io "Главная"
 [BlogURL]:                  http://blog.cloudcmd.io "Блог"
-[HerokuURL]:                http://cloudcmd.herokuapp.com/
-[HEROKU_LIVE_IMG]:          https://status-io.cloudcmd.io/host/cloudcmd.herokuapp.com/img/txt.png
+[HerokuURL]:                http://cloudcmd.herokuapp.com/ "Heroku"
+[HEROKU_LIVE_IMG]:          https://status-io.cloudcmd.io/host/cloudcmd.herokuapp.com/img/txt.png "Heroku"
 
-[DWORD]:                    https://github.com/cloudcmd/dword
-[EDWARD]:                   https://github.com/cloudcmd/edward
-[EDWARD_KEYS]:              https://github.com/cloudcmd/edward/#hot-keys
+[DWORD]:                    https://github.com/cloudcmd/dword "Редактор основанный на CodeMirror"
+[EDWARD]:                   https://github.com/cloudcmd/edward "Редактор основанный на Ace"
+[EDWARD_KEYS]:              https://github.com/cloudcmd/edward/#hot-keys "Гарячие клавиши Edward"
+[TERMUX]:                   https://termux.com "Termux"
 
 **Cloud Commander** - двухпанельный веб файл менеджер с консолью и редактором. Поможет вам управлять сервером и работать с файлами, каталогами и программами в браузере на любом компьютере, смартфоне или планшете.
 
@@ -47,7 +48,7 @@ hideDownloadButtons: true
 - Две классические панели.
 - Возможность **авторизации**.
 - Клиент работает в веб браузере.
-- Сервер работает под **Windows**, **Linux** и **Mac OS**.
+- Сервер работает под **Windows**, **Linux**, **Mac OS** и **Android** (при помощи [Termux][TERMUX]).
 - Может использоваться локально или удаленно.
 - Адаптируется под размер экрана.
 - **2 встроенных редактора** с поддержкой **подсветки синтаксиса**: [Dword][DWORD] и [Edward][EDWARD].
