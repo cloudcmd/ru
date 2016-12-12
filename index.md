@@ -254,7 +254,8 @@ npm update cloudcmd -g
     "root"              : "/",              /* корневой каталог                                                */
     "prefix"            : "",               /* url префикс                                                     */
     "progress"          : true,             /* показывать состояние файловых операций                          */
-    "htmlDialogs"       : true              /* показывать html диалоги                                         */
+    "onePanelMode"      : false,            /* включить однопанельный режим                                    */
+    "configDialog"      : true              /* включить диалог конфигурирования                                */
 }
 ```
 
