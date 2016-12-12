@@ -336,9 +336,14 @@ const config = {
     prefix /* основной URL или функция которая возвращает основной URL (не обязательно) */
 };
 
+const plugins = [
+    __dirname + '/plugin.js'
+];
+
 app.use(cloudcmd({
     socket,          /* используется Config'ом, Edit'ом (не обязательно) и Console'ью (обязательно)  */
     config,          /* опции настроек (не обязательно)                                              */
+    plugins,         /* не обязательно */
 }));
 
 server.listen(port);
