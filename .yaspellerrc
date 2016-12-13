@@ -11,6 +11,7 @@
     ],
     "dictionary":[
         "Dev",
+        "Deepword",
         "Dropbox",
         "Dword",
         "FilePicker",
@@ -21,12 +22,14 @@
         "JitSu",
         "Polietilena",
         "TarZak",
+        "Termux",
         "WebSocket",
         "cd",
         "cloudcmd",
         "coderaiser",
         "com",
         "dev",
+        "deepword",
         "dword",
         "edward",
         "favicon",
@@ -51,6 +54,7 @@
         "Залиток",
         "баг",
         "двухпанельный",
-        "минификацию"
+        "минификацию",
+        "однопанельный"
     ]
 }
