@@ -480,7 +480,7 @@ docker-compose up
  
  - если вы нашли баг или у вас есть идея для воплощения [создайте issue](https://github.com/coderaiser/cloudcmd/issues/new "Создать issue");
  - если вы исправили баг, опечатку или реализовали новый функционал [создайте pull request](https://github.com/coderaiser/cloudcmd/compare "Создать pull request");
- - если вы владеете другими языками, можете помочь с переводом [переводы сайта](https://github.com/coderaiser/cloudcmd/wiki "Вики Cloud Commander сообщества");
+ - если вы владеете другими языками, можете [помочь с переводом](https://github.com/coderaiser/cloudcmd/wiki "Вики Cloud Commander сообщества");
  
 История версий
 ---------------
