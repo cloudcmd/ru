@@ -478,7 +478,7 @@ docker-compose up
  
 Существует масса способов поучаствовать в разработке `Cloud Commander`:
  
- - если Вы нашли баг или у вас есть идея для воплощения [создайте issue](https://github.com/coderaiser/cloudcmd/issues/new "Создать issue");
+ - если Вы нашли баг или у Вас есть идея для воплощения [создайте issue](https://github.com/coderaiser/cloudcmd/issues/new "Создать issue");
  - если Вы исправили баг, опечатку или реализовали новый функционал [создайте pull request](https://github.com/coderaiser/cloudcmd/compare "Создать pull request");
  - если Вы владеете другими языками, можете [помочь с переводом](https://github.com/coderaiser/cloudcmd/wiki "Вики Cloud Commander сообщества");
  
