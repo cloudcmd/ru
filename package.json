@@ -25,7 +25,7 @@
   "devDependencies": {
     "files-io": "~1.2.5",
     "minor": "~1.2.3",
-    "place": "~1.1.2",
+    "place": "^1.2.1",
     "rendy": "~1.0.6",
     "shortdate": "~1.0.1",
     "yaspeller": "^4.0.3"
