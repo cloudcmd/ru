@@ -4,6 +4,7 @@
   "private": true,
   "changelog": false,
   "release": false,
+  "tag": false,
   "branch": "gh-pages",
   "description": "ru",
   "scripts": {
