@@ -1,15 +1,18 @@
 ---
 layout: default
 lang:
- - name: English
-   link: //cloudcmd.io
-   translation: на Английском
+ -
+    name: English
+    link: //cloudcmd.io
+    translation: на Английском
  
- - name: Ukrainian
+ -
+   name: Ukrainian
    link: //ua.cloudcmd.io
    translation: на Украинском
- 
- - name: Russian
+
+ -
+   name: Russian
    link: //ru.cloudcmd.io
    translation: на Русском
 
