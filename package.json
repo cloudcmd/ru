@@ -25,7 +25,7 @@
     "files-io": "^2.0.0",
     "minor": "~1.2.3",
     "place": "^1.2.1",
-    "rendy": "^1.1.0",
+    "rendy": "^2.0.0",
     "shortdate": "^1.2.0",
     "yaspeller": "^5.0.0"
   },
