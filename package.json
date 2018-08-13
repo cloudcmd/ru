@@ -27,7 +27,7 @@
     "place": "^1.2.1",
     "rendy": "^1.1.0",
     "shortdate": "^1.2.0",
-    "yaspeller": "^4.0.3"
+    "yaspeller": "^5.0.0"
   },
   "dependencies": {}
 }
