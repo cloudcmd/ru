@@ -1,7 +1,7 @@
 {
   "name": "cloudcmd-ru",
   "version": "11.8.1",
-  "private": true,
+  "publish": false,
   "changelog": false,
   "release": false,
   "description": "ru",
