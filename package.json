@@ -29,5 +29,8 @@
     "shortdate": "^1.2.0",
     "yaspeller": "^5.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "access": "restricted"
+  }
 }
